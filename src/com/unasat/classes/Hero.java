@@ -1,9 +1,11 @@
+package com.unasat.classes;
+
 import java.util.Random;
 
 public class Hero {
-    String name;
+    public String name;
     String heroClass;
-    int hp;
+    public int hp;
     int attack;
     Random rand = new Random();
 

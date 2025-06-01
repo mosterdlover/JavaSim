@@ -1,3 +1,5 @@
+package com.unasat.logics;
+
 import java.util.Scanner;
 
 public class User {
@@ -5,7 +7,7 @@ public class User {
     String password;
     int gamesPlayed;
 
-    public Main(String username, String password) {
+    public void Main(String username, String password) {
         this.username = username;
         this.password = password;
         this.gamesPlayed = 0;

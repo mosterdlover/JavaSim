@@ -1,9 +1,13 @@
+package com.unasat.logics;
+
 import java.util.Random;
+
+import com.unasat.classes.Hero;
 
 public class AI {
     String name;
-    int hp;
-    int attack;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    public int hp;
+    int attack;                                                                                                                                                                                                                                                        
     Random rand = new Random();
 
     public AI(String name) {

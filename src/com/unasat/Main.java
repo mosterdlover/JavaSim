@@ -1,10 +1,15 @@
+package com.unasat;
+
 import java.util.Scanner;
+
+import com.unasat.classes.*;
+import com.unasat.logics.*;
 import java.util.Random;
 
-public class GamePlay {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Random rand = new Random();
+        //Random rand = new Random();
 
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
